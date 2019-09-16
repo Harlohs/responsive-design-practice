@@ -182,7 +182,7 @@ footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 14px;
+	font-size: 0.875em;
 }
 /*=========== TABLET LAYOUT ============*/
 @media screen and (min-width: 768px){
@@ -348,7 +348,7 @@ footer span {
 		font-family: 'Wisdom Script', cursive;
 		text-transform: lowercase;
 		color: #77a466;
-		font-size: 14px;
+		font-size: 0.875em;
 	}
 }
 /*=========== DESKTOP LAYOUT ===========*/
@@ -450,24 +450,15 @@ footer span {
 	.section-one,
 	.section-two,
 	.section-three {
-		width: 33%;
+		width: 30%;
 		height: auto;
 		float: left;
 		border-top: 1px solid #eee;
 	}
 
-	.section-one h4 {
-		padding: 10px 0;
-	}
-
 	.section-two {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
-	}
-
-	.section-two h4,
-	.section-three h4 {
-		padding: 10px 30px;
 	}
 
 	.menu {
@@ -502,7 +493,7 @@ footer span {
 		font-family: 'Wisdom Script', cursive;
 		text-transform: lowercase;
 		color: #77a466;
-		font-size: 14px;
+		font-size: 0.875em;
 	}
 
 }
