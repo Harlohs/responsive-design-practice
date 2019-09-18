@@ -98,6 +98,194 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*------- base header - footer styles ------*/
+header,
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+/* header styles*/
+
+header{
+
+}
+
+header .content-wrapper{
+
+}
+
+header nav, header figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header figure{
+
+}
+
+header nav ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline;
+  list-style-type: none;
+}
+header .faq-link{
+}
+
+header .about-link{
+}
+
+/*------- mobile styles - homepage ------*/
+body{
+  padding: 10px 20px 0px 20px;
+}
+
+main, .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.hero-area{
+
+}
+
+.hero-area .content-wrapper{
+
+}
+
+aside .content-wrapper{
+
+}
+
+.form-description{
+
+}
+
+.form{
+ width: 100%;
+}
+
+.form h3{
+
+}
+
+#form-text{
+  margin-bottom:10px;
+  width: 100%;
+}
+
+#form-button{
+  width: 100%;
+}
+
+.features{
+
+}
+
+.features .content-wrapper{
+
+}
+
+.features-items{
+
+}
+
+.fontawesome-icons{
+
+}
+.features-items-description{
+
+}
+
+.reviews{
+
+}
+
+.reviews h3{
+
+}
+
+.reviews h3, .reviews h4{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.reviews p{
+
+}
+/*------- mobile styles - about page ------*/
+
+.mission{
+
+}
+
+.mission-content{
+
+}
+
+.map{
+
+}
+
+.contact-section{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact-area{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+/*------- mobile styles - FAQ page ------*/
+
+.frequently-asked-questions{
+
+}
+
+.single-faq{
+
+}
+
+/* footer */
+
+footer{
+
+}
+
+footer .content-wrapper{
+
+}
+
+footer h4{
+  text-align: center;
+}
+
+.footer-content{
+
+}
+
+.contact{
+
+}
+.contact address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.social{
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +451,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
