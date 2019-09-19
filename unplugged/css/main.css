@@ -97,9 +97,64 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   html{
-     font-size: 1em;
-   }
+/* General Styles */
+
+html {
+    font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul,
+ol,
+#form-button {
+    text-transform: uppercase;
+      font-size: 1.125em;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.775em
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+}
+
+p {
+ font-size: 1em;
+}
+
+img {
+
+}
+
+figure a{
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+
+}
+.contact-section h2{
+  font-size: 1.5em;
+}
 
 /*------- base header - footer styles ------*/
 
@@ -222,6 +277,10 @@ aside{
   text-align: center;
 }
 
+.features-items article{
+  padding: 25px 0px;
+}
+
 .fontawesome-icons{
 
 }
@@ -237,7 +296,7 @@ aside{
   margin-bottom: 30px;
 }
 
-.reviews h3, .reviews h4{
+.reviews h2, .reviews h3, .reviews h4{
   display: flex;
   justify-content: flex-start;
   width: 100%;
@@ -292,10 +351,11 @@ footer{
 }
 footer p {
   margin: 0;
+  text-align: center;
 }
 
 footer .content-wrapper{
-  width: 55%;
+  width: 100%;
   margin: 0px 50px;
 }
 
@@ -304,7 +364,7 @@ footer h4{
 }
 
 .footer-content{
-
+  width: 100%;
 }
 
 .contact{
@@ -411,6 +471,7 @@ footer h4{
 
 @media only screen and (min-width: 768px){
   /*------- base header - footer styles ------*/
+
 
   header,
   footer{
@@ -673,7 +734,6 @@ footer h4{
   }
   .copyright{
     width: 100%;
-    justify-content: center;
     text-align: center;
     padding-top: 90px;
   }
@@ -700,6 +760,7 @@ footer h4{
   }
 
   header .content-wrapper{
+    width: 100%;
    margin: 0 auto;
    flex-flow: nowrap;
   }
@@ -893,16 +954,17 @@ footer h4{
   /*------- desktop styles - FAQ page ------*/
 
   .frequently-asked-questions{
-
+    display: flex;
   }
   .frequently-asked-questions h2{
     width: 100%;
-    padding: 0 50px;
+    padding: 0px 15px;
   }
 
   .single-faq{
     width: 40%;
-    padding: 30px 25px;
+    padding: 15px 25px 15px 0px;
+    justify-content: flex-start;
   }
 
   /* footer */
