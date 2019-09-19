@@ -631,15 +631,19 @@ footer h4{
   }
 
   .form-description{
-      width:35%;
+    width:40%;
+  }
+  .form-description h3, .form h3{
+    font-size: 1.4em;
+  }
+
+  .form-description p{
+    font-size: 1.25em;
   }
 
   .form{
-   width: 35%;
-  }
-
-  .form h3{
-
+   width: 40%;
+   padding: 0px 20px 40px;
   }
 
   #form-text{
