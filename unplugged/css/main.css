@@ -145,7 +145,10 @@ p {
 }
 
 img {
-
+  width: 100%;
+}
+figure{
+  margin: 0;
 }
 
 figure a{
@@ -194,9 +197,13 @@ header nav, header figure{
 }
 
 header figure{
-  width: 100%;
-  font-size: 1.875em;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
+
 header nav{
   width: 80%;
   margin: 0 50px;
@@ -243,9 +250,8 @@ main, .content-wrapper{
       padding: 10px 20px;
 }
 .hero-area-background{
-    background-image: url('../img/jake-melara.jpg');
+    background: url('../img/jake-melara.jpg') center no-repeat #333;
     background-size: cover;
-    background-position: center;
     width: 100%;
 }
 .hero-area .content-wrapper{
@@ -572,7 +578,10 @@ footer h4{
   }
 
   header figure{
-    width: 70%;
+    width: 100%;
+  }
+  header img{
+    width: 100%;
   }
   header nav{
     width: 90%;
@@ -693,8 +702,10 @@ footer h4{
   .features-items-description{
   }
 
-  .reviews{
-
+  .reviews .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .reviews h3{
@@ -705,6 +716,12 @@ footer h4{
     display: flex;
     justify-content: flex-start;
     width: 100%;
+  }
+  .reviews figure{
+    width: 50%;
+  }
+  .review-below-img-text{
+    width: 45%;
   }
 
   .reviews p{
@@ -853,8 +870,8 @@ footer h4{
     width: 70%;
   }
   header nav{
-    width: 30%;
-    margin: 0;
+    width: 90%;
+    margin: 0 0px;
   }
 
   header nav ul{
