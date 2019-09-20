@@ -473,7 +473,21 @@ footer h4{
 .social{
 
 }
-
+.social-icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.social-icons i{
+  background-color: #527158;
+  padding: 15px;
+  border-radius: 50px;
+}
+.social-icons .fa-facebook-f{
+  padding: 15px 19px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
