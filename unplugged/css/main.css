@@ -757,6 +757,13 @@ footer h4{
     width: 45%;
 
   }
+  .map {
+    padding-bottom: 55%;
+  }
+
+  .map  iframe{
+
+  }
 
 
 
@@ -1023,9 +1030,15 @@ footer h4{
   }
   .mission-content p{
     width: 45%;
-
   }
 
+  .map {
+    padding-bottom: 30%;
+  }
+
+  .map  iframe{
+
+  }
 
   .contact-section{
     display: flex;
