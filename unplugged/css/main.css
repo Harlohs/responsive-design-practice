@@ -202,6 +202,7 @@ header figure{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 10px 0px;
 }
 
 header nav{
@@ -387,12 +388,15 @@ input[type=button]{
 }
 
 .mission-content{
-
+  padding: 40px 0px;
+}
+.mission-content h3{
+ font-size: 1.9em;
 }
 .map {
   width: 100%;
   height: 0;
-  padding-bottom: 75%;
+  padding-bottom: 110%;
   position: relative;
   overflow: hidden;
 }
@@ -416,8 +420,14 @@ input[type=button]{
   justify-content: flex-start;
   padding: 20px;
 }
+.contact-section h2{
+  width: 100%;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
 .contact-section h3{
   width: 100%;
+  font-size: 1.4em;
 }
 
 .contact-area{
@@ -471,8 +481,8 @@ footer h4{
   width: 100%;
 }
 
-.contact{
-
+.contact h4{
+ margin-bottom: 10px;
 }
 .contact address{
   display: flex;
@@ -611,6 +621,7 @@ footer h4{
   header .content-wrapper{
    margin: 0 auto;
    flex-flow: nowrap;
+   padding: 10px 0px;
   }
 
   header nav, header figure{
@@ -780,6 +791,7 @@ footer h4{
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
+    margin: 20px 0px;
   }
   .mission-content h3{
     width: 100%;
@@ -804,7 +816,7 @@ footer h4{
     justify-content: flex-start;
     align-items: flex-start;
     flex-flow: nowrap;
-    padding: 100px 20px;
+    padding: 50px 20px;
   }
 
   .contact-section h2{
@@ -856,6 +868,8 @@ footer h4{
 
   footer h4{
     text-align: center;
+    padding: 30px 0 10px 0;
+    font-size: 1.5em;
   }
 
   .footer-content{
@@ -869,11 +883,13 @@ footer h4{
   .contact{
     width: 35%;
   }
+
   .contact address{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 15px;
   }
   .social{
     width: 35%;
@@ -1071,6 +1087,11 @@ footer h4{
   .mission-content p{
     width: 45%;
   }
+  .mission-content h3{
+    font-size: 2.7em;
+    margin-bottom: 20px;
+
+  }
 
   .map {
     padding-bottom: 30%;
@@ -1090,6 +1111,7 @@ footer h4{
 
   .contact-section h2{
     width: 100%;
+    font-size: 2.7em;
   }
 
   .contact-section .content-wrapper{
